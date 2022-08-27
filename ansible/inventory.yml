@@ -1,0 +1,26 @@
+    
+[revproxy]
+yardiot.ru ansible_host=51.250.5.232 email=admin@yardiot.ru domain=yardiot.ru
+    
+[db]
+db01.yardiot.ru ansible_host=84.201.159.60
+db02.yardiot.ru ansible_host=84.201.158.209
+
+[db01]
+db01.yardiot.ru ansible_host=84.201.159.60
+
+[db02]
+db02.yardiot.ru ansible_host=84.201.158.209
+   
+[wordpress]
+app.yardiot.ru ansible_host=62.84.125.40 domain=yardiot.ru 
+
+[gitlab]
+gitlab.yardiot.ru ansible_host=84.201.156.225 domain=yardiot.ru gitlab_external_url=http://gitlab.yardiot.ru/
+
+[runner]
+runner.yardiot.ru ansible_host=84.201.158.58 domain=yardiot.ru  
+
+[monitoring]
+monitoring.yardiot.ru ansible_host=51.250.78.28 domain=yardiot.ru
+
