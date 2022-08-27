@@ -36,7 +36,7 @@ L-- terraform
 2. Создание инфраструктуры. 
 ![YandexCloud](/Pic/1.png)
 
-3. Nginx è LetsEncrypt  
+3. Nginx LetsEncrypt  
  
 https://www.yardiot.ru (WordPress)  
 https://gitlab.yardiot.ru (Gitlab)  
