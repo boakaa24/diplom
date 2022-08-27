@@ -1,22 +1,22 @@
-# Äèïëîìíàÿ ðàáîòà.
+#Ð”Ð¸Ð¿Ð»Ð¾Ð¼Ð½Ð°Ñ Ñ€Ð°Ð±Ð¾Ñ‚Ð°.
 
-1. Îáùàÿ ñòðóêòóðà êàòàëîãîâ:
+1. ÐžÐ±Ñ‰Ð°Ñ ÑÑ‚Ñ€ÑƒÐºÑ‚ÑƒÑ€Ð° ÐºÐ°Ñ‚Ð°Ð»Ð¾Ð³Ð¾Ð²:
 
-- terraform - êàòàëîã ìàíèôåñòîâ ñîçäàíèÿ è íàñòðîéêè èíôðàñòðóêòóðû
-- ansible - ðîëè, òàñêè è íàñòðîéêè äëÿ äåïëîÿ è íàñòðîéêè íà ñåðâåðàõ íåîáõîäèìûõ ñåðâèñîâ
+- terraform - ÐºÐ°Ñ‚Ð°Ð»Ð¾Ð³ Ð¼Ð°Ð½Ð¸Ñ„ÐµÑÑ‚Ð¾Ð² ÑÐ¾Ð·Ð´Ð°Ð½Ð¸Ñ Ð¸ Ð½Ð°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ¸ Ð¸Ð½Ñ„Ñ€Ð°ÑÑ‚Ñ€ÑƒÐºÑ‚ÑƒÑ€Ñ‹
+- ansible - Ñ€Ð¾Ð»Ð¸, Ñ‚Ð°ÑÐºÐ¸ Ð¸ Ð½Ð°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ¸ Ð´Ð»Ñ Ð´ÐµÐ¿Ð»Ð¾Ñ Ð¸ Ð½Ð°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ¸ Ð½Ð° ÑÐµÑ€Ð²ÐµÑ€Ð°Ñ… Ð½ÐµÐ¾Ð±Ñ…Ð¾Ð´Ð¸Ð¼Ñ‹Ñ… ÑÐµÑ€Ð²Ð¸ÑÐ¾Ð²
 ```
 root@andrew-VirtualBox:~/git_rep/stage# tree -L 2
 .
 +-- ansible
-¦   +-- db
-¦   +-- gitlab
-¦   +-- inventory.yml
-¦   +-- monitoring
-¦   +-- nginx
-¦   +-- node_exporter
-¦   +-- runner
-¦   +-- terraform.tfstate
-¦   L-- wordpress
+Â¦Â Â  +-- db
+Â¦Â Â  +-- gitlab
+Â¦Â Â  +-- inventory.yml
+Â¦Â Â  +-- monitoring
+Â¦Â Â  +-- nginx
+Â¦Â Â  +-- node_exporter
+Â¦Â Â  +-- runner
+Â¦Â Â  +-- terraform.tfstate
+Â¦Â Â  L-- wordpress
 +-- Pic
 +-- Readme.md
 L-- terraform
@@ -33,10 +33,10 @@ L-- terraform
 10 directories, 12 files
 
 ```
-2. Ñîçäàíèå èíôðàñòðóêòóðû  
+2. Ð¡Ð¾Ð·Ð´Ð°Ð½Ð¸Ðµ Ð¸Ð½Ñ„Ñ€Ð°ÑÑ‚Ñ€ÑƒÐºÑ‚ÑƒÑ€Ñ‹. 
 ![YandexCloud](/Pic/1.png)
 
-3. Nginx è LetsEncrypt  
+3. Nginx Ã¨ LetsEncrypt  
  
 https://www.yardiot.ru (WordPress)  
 https://gitlab.yardiot.ru (Gitlab)  
@@ -44,7 +44,7 @@ https://grafana.yardiot.ru (Grafana)
 https://prometheus.yardiot.ru (Prometheus)  
 https://alertmanager.yardiot.ru (Alert Manager) 
 
-4. Êëàñòåð MySQL  
+4. ÐšÐ»Ð°ÑÑ‚ÐµÑ€ MySQL  
 ```
 mysql> SHOW REPLICA STATUS\G;
 *************************** 1. row ***************************
@@ -119,7 +119,7 @@ No query specified
 
 ![Wordpress](/Pic/7.png)
 
-6. Gitlab CE è Gitlab Runner
+6. Gitlab CE Gitlab Runner
 
 ![GitLab](/Pic/3.png)
 
@@ -129,7 +129,7 @@ No query specified
 
 ![CI/CD](/Pic/9.png)
 
-7. Prometheus, Alert Manager, Node Exporter è Grafana
+7. Prometheus, Alert Manager, Node Exporter Grafana
 
 ![Prometheus](/Pic/5.png)
 
